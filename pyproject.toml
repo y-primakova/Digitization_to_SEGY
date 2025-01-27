@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "digitization-to-segy"
+version = "0.1.0"
+description = ""
+authors = ["Yulia Primakova <y.primakova@g.nsu.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.2"
+matplotlib = "^3.10.0"
+segyio = "^1.9.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
