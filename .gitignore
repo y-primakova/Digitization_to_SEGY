@@ -126,6 +126,7 @@ dmypy.json
 # other dir
 /output_pptx
 /results
+/notebooks
 /презентации
 
 # Pyre type checker
