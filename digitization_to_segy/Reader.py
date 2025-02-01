@@ -15,3 +15,9 @@ class Reader:
         img = mpimg.imread(path)
         image = img[:, :, :3]
         return image
+
+    @staticmethod
+    def read_jpeg(path):
+        img = mpimg.imread(path, format='jpeg')
+        image = img[:, :, :3]
+        return image
